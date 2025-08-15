@@ -1,0 +1,40 @@
+    :root{
+        --brand:#0d6efd
+    }
+    html{
+        scroll-behavior:smooth
+    }
+    body{
+        font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial, Helvetica, sans-serif
+    }
+    .navbar-brand{
+        font-weight:700
+    }
+    header.hero{
+        min-height:78vh;display:grid;place-items:center;background:linear-gradient(130deg,#1d3e97 0%, #b0b8c9 100%);color:#fff;padding-top:4.5rem;text-align:center
+    }
+    .hero .lead{
+        opacity:.9
+    }
+    .section-title{
+        font-weight:700;margin-bottom:.5rem
+    }
+    .section-sub{
+        color:#6c757d;
+        margin-bottom:1.5rem
+    }
+    .card.project{
+        transition:transform .25s ease,box-shadow .25s ease
+    }
+    .card.project:hover{
+        transform:translateY(-6px);box-shadow:0 12px 30px rgba(2,6,23,.15)
+    }
+    footer{
+        background:#4e7ddb;color:#d1d5db;padding:1rem 0
+    }
+    .profile-img{
+        width:220px;height:220px;object-fit:cover;border-radius:50%;box-shadow:0 8px 20px rgba(2,6,23,.2)
+    }
+    @media(max-width:576px){
+        .profile-img{width:140px;height:140px}
+    }
